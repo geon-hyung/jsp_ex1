@@ -8,12 +8,10 @@
 </head>
 <body>
 	<div>test</div>
-	
+		
 	<jsp:forward page="forward-view.jsp">
-		<jsp:param name="userId" value="hong123"></jsp:param>  <!--name 키 value 밸류   -->
-		<jsp:param name="userAge" value="30></jsp:param>
+		<jsp:param name="userId" value="hong123"></jsp:param>
+		<jsp:param name="userAge" value="30"></jsp:param>
 	</jsp:forward>
-	
-	
 </body>
 </html>
